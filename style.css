@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("C:/Users/prana/Desktop/FSD/images/background.jpg") no-repeat center;
+    background: url("C:/Users/MRCET1/Desktop/blog/bg.jpg");
     height: 100vh;
     color: #fff;
     min-height: 500px;
