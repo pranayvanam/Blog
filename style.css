@@ -35,12 +35,12 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .services, .skills, .teams, .contact, footer{
+.about, .Skills, .Education, .teams .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
-.services .serv-content,
-.skills .skills-content,
+.Skills .sk-content,
+.Education .Ed-content,
 .contact .contact-content{
     display: flex;
     flex-wrap: wrap;
@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("bg.jpg");
+    background: url("C:/Users/prana/Desktop/FSD/images/background.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -205,7 +205,7 @@ section .title::after{
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid: rgb(5, 177, 193);
+    border: 2px solid rgb(5, 177, 193);
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
@@ -257,21 +257,21 @@ section .title::after{
     background: none;
 }
 
-/* services section styling */
-.services, .teams{
+/* skills section styling */
+.Skills, .teams{
     color:#fff;
     background: #111;
 }
-.services .title::before,
+.Skills .title::before,
 .teams .title::before{
     background: #fff;
 }
-.services .title::after,
+.Skills .title::after,
 .teams .title::after{
     background: #111;
-    content: "what i provide";
+    content: "what i know";
 }
-.services .serv-content .card{
+.Skills .sk-content .card{
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
@@ -280,46 +280,46 @@ section .title::after{
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.services .serv-content .card:hover{
+.Skills.sk-content .card:hover{
     background: rgb(5, 177, 193);
 }
-.services .serv-content .card .box{
+.Skills .sk-content .card .box{
     transition: all 0.3s ease;
 }
-.services .serv-content .card:hover .box{
+.Skills .sk-content .card:hover .box{
     transform: scale(1.05);
 }
-.services .serv-content .card i{
+.Skills.sk-content .card i{
     font-size: 50px;
     color: rgb(5, 177, 193);
     transition: color 0.3s ease;
 }
-.services .serv-content .card:hover i{
+.Skills .sk-content .card:hover i{
     color: #fff;
 }
-.services .serv-content .card .text{
+.Skills .sk-content .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
 
-/* skills section styling */
+/* education section styling */
 
-.skills .title::after{
-    content: "what i know";
+.Education .title::after{
+    content: "what i studied";
 }
-.skills .skills-content .column{
+.Education .Ed-content .column{
     width: calc(50% - 30px);
 }
-.skills .skills-content .left .text{
+.Education .Ed-content .left .text{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
 }
-.skills .skills-content .left p{
+.Education .Ed-content .left p{
     text-align: justify;
 }
-.skills .skills-content .left a{
+.Education .Ed-content .left a{
     display: inline-block;
     background: rgb(5, 177, 193);
     color: #fff;
@@ -328,33 +328,33 @@ section .title::after{
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid: rgb(5, 177, 193);
+    border: 2px solid rgb(5, 177, 193);
     transition: all 0.3s ease;
 }
-.skills .skills-content .left a:hover{
+.Education .Ed-content .left a:hover{
     color:rgb(5, 177, 193);
     background: none;
 }
-.skills .skills-content .right .bars{
+.Education .Ed-content .right .bars{
     margin-bottom: 15px;
 }
-.skills .skills-content .right .info{
+.Education .Ed-content .right .info{
     display: flex;
     margin-bottom: 5px;
     align-items: center;
     justify-content: space-between;
 }
-.skills .skills-content .right span{
+.Education .Ed-content .right span{
     font-weight: 500;
     font-size: 18px;
 }
-.skills .skills-content .right .line{
+.Education .Ed-content .right .line{
     height: 5px;
     width: 100%;
     background: lightgrey;
     position: relative;
 }
-.skills .skills-content .right .line::before{
+.Education .Ed-content .right .line::before{
     content: "";
     position: absolute;
     height: 100%;
@@ -362,30 +362,15 @@ section .title::after{
     top: 0;
     background: rgb(5, 177, 193);
 }
-.skills-content .right .html::before{
+.Ed-content .right .SSC::before{
     width: 90%;
 }
-.skills-content .right .css::before{
+.Ed-content .right .Intermediate::before{
     width: 80%;
 }
-.skills-content .right .js::before{
+.Ed-content .right .Btech::before{
     width: 70%;
 }
-.skills-content .right .NodeJs::before{
-    width: 50%;
-}
-.skills-content .right .mysql::before{
-    width: 70%;
-}
-.skills-content .right .Python::before{
-    width: 80%;
-}
-.skills-content .right .React::before{
-    width: 60%;
-}
-
-
-
 /* contact section styling */
 .contact .title::after{
     content: "get in touch";
@@ -474,7 +459,7 @@ section .title::after{
   cursor: pointer;
   flex-wrap: nowrap;
   background: rgb(5, 177, 193);
-  border: 2px solid: rgb(5, 177, 193);
+  border: 2px solid rgb(5, 177, 193);
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover{
