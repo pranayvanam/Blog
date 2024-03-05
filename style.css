@@ -35,7 +35,7 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .Skills, .Education, .teams .contact, footer{
+.about, .Skills, .Education, .teams ,.contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
@@ -549,11 +549,11 @@ footer span a:hover{
     .about .about-content .right{
         flex: 100%;
     }
-    .services .serv-content .card{
+    .Skills .sk-content .card{
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
-    .skills .skills-content .column,
+    .Education .Ed-content .column,
     .contact .contact-content .column{
         width: 100%;
         margin-bottom: 35px;
@@ -573,7 +573,7 @@ footer span a:hover{
     .home .home-content a{
         font-size: 20px;
     }
-    .services .serv-content .card{
+    .Skills .sk-content .card{
         width: 100%;
     }
 }
@@ -586,7 +586,7 @@ footer span a:hover{
         font-size: 27px;
     }
     .about .about-content .right .text,
-    .skills .skills-content .left .text{
+    .Education .Ed-content .left .text{
         font-size: 19px;
     }
     .contact .right form .fields{
